@@ -9,22 +9,5 @@ print(arr)
 #another type of append is denoted by extends()
 arr_2=["alu","potol","korola"]
 arr.extend(arr_2)
+del arr[2] #deleting data from a specific list position
 print(arr)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
