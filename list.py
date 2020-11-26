@@ -11,3 +11,5 @@ arr_2=["alu","potol","korola"]
 arr.extend(arr_2)
 del arr[2] #deleting data from a specific list position
 print(arr)
+arr.clear() #clear all data from the list
+print(arr)
