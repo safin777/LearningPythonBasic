@@ -3,14 +3,22 @@
 arr=["apple","mango","orange"]
 
 print(arr[1])  #apple
-print(arr[0:3])#apple', 'mango', 'orange'
-print(arr[:3]) #apple', 'mango', 'orange'
+
+#changing list item 3
+arr[1]="papaya"
+arr.insert(1,"lol") # insert() is for inserting any list item on a list
+print(arr[0:3])
 
 
-if arr[0]=="apple":
-  print("this is an apple ")
-else:
-  print ("prediction false")
+
+
+
+
+
+
+
+
+
 
 
 
