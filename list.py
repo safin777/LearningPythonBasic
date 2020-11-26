@@ -1,14 +1,15 @@
 
 #python access item from list
-arr=["apple","mango","orange"]
+arr=["apple","mango","orange","kala","akash","batas"]
 
-print(arr[1])  #apple
+#appending item on list
+arr.append("safin")
+print(arr)
 
-#changing list item 3
-arr[1]="papaya"
-arr.insert(1,"lol") # insert() is for inserting any list item on a list
-print(arr[0:3])
-
+#another type of append is denoted by extends()
+arr_2=["alu","potol","korola"]
+arr.extend(arr_2)
+print(arr)
 
 
 
