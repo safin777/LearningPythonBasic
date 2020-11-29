@@ -1,6 +1,8 @@
 
 #python access item from list
 arr=["apple","mango","orange","kala","akash","batas"]
+for i in arr:
+  print (i)
 
 #appending item on list
 arr.append("safin")
@@ -11,5 +13,7 @@ arr_2=["alu","potol","korola"]
 arr.extend(arr_2)
 del arr[2] #deleting data from a specific list position
 print(arr)
-arr.clear() #clear all data from the list
-print(arr)
+
+#loop in list
+
+
