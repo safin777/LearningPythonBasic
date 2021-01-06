@@ -1,7 +1,7 @@
 if __name__ == '__main__':
-    N = int(input())
+    x = int(input())
     listA=[]
-    for i in range (N):
+    for i in range (x):
        command = list(input("").split(" "))\
        
        if command[0]=="insert":
